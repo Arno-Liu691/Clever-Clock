@@ -1,0 +1,6 @@
+../Core/Src/EEPROM.c:7:6:EEPROM_WriteUInt64	40	static
+../Core/Src/EEPROM.c:45:6:EEPROM_ReadUInt64	56	static
+../Core/Src/EEPROM.c:71:6:EEPROM_WriteInt32	24	static
+../Core/Src/EEPROM.c:88:6:EEPROM_ReadInt32	24	static
+../Core/Src/EEPROM.c:101:6:EEPROM_WriteUInt8	24	static
+../Core/Src/EEPROM.c:118:6:EEPROM_Init	16	static

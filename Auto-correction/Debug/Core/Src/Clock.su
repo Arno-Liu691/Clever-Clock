@@ -1,0 +1,10 @@
+../Core/Src/Clock.c:20:6:set_time	16	static
+../Core/Src/Clock.c:32:13:weekday_string	56	static
+../Core/Src/Clock.c:42:9:days_in_month	16	static
+../Core/Src/Clock.c:60:5:is_last_sunday	24	static
+../Core/Src/Clock.c:72:6:HAL_TIM_PeriodElapsedCallback	40	static
+../Core/Src/Clock.c:192:6:Adjustment	16	static
+../Core/Src/Clock.c:223:6:Calibration	72	static
+../Core/Src/Clock.c:258:6:Plus	16	static
+../Core/Src/Clock.c:309:6:Minus	8	static
+../Core/Src/Clock.c:380:6:PPM_Init	24	static
