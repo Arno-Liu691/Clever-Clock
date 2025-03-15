@@ -99,7 +99,7 @@ uint8_t pps_counter = 0;
 
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-    if (htim->Instance == TIM1) { // internal clock 10Hz
+    if (htim->Instance == TIM1) { // internal clock 1kHz
 //    	uint32_t currentTick = HAL_GetTick();
 //    	system_clock += (currentTick - previousTick)/1000; // system_clock in ms
 //    	previousTick = currentTick;
@@ -132,7 +132,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 				LED_flag2 = !LED_flag2;
 			}
 		}
-//		if (tcxo_flag == 1 && tcxo_clock > 1){ // compensate the initial error observed in tcxo
+//		if (tcxo_flag == 1 && tcxo_clock > 1){ // compensate the initial error observed in tcxo if necessary
 //			tcxo_clock -= 1;
 //			tcxo_flag = 0;
 //		}
